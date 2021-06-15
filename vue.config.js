@@ -19,6 +19,7 @@ module.exports = {
 	    	assetFilter: function(assetFilename) {
 	    		return assetFilename.endsWith('.js');
 	    	}
-	    }
+	    },
+        target: 'serverless'
     }
 }
