@@ -3,7 +3,8 @@ module.exports = {
 	configureWebpack: {
 	     //Turn off the performance tips of webpack
 	    performance: {
-		    hints:false
+		    hints:false,
+            target: 'serverless'
 	    },
  
 	     //Or
