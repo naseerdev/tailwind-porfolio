@@ -11,7 +11,7 @@ export default new Vuex.Store({
         birthDay: new Date(1997, 7, 25),
         startDescription: "Hello I’m Naseer",
         description:
-            ", a Front End Developer based in Lahore, Pakistan. Front End developer  with industry experience building Responsive websites and web applications. I specialize in Html5 | CSS3 | SCSS | BootStrap | React Bootstrap | TailwindCss | Javascript | Jquery ",
+            ", a front end developer based in Lahore, Pakistan. Developer  with industry experience building Responsive websites and web applications. I specialize in Html5 | CSS3 | SCSS | BootStrap | React Bootstrap | TailwindCss | Javascript | Jquery ",
     },
     technologies: {
         programming:  [
