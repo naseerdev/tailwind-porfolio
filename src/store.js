@@ -11,7 +11,7 @@ export default new Vuex.Store({
         birthDay: new Date(1997, 7, 25),
         startDescription: "Hello I’m Naseer",
         description:
-            ", a front end developer based in Lahore, Pakistan. Developer  with industry experience building Responsive websites and web applications. I specialize in Html5 | CSS3 | SCSS | BootStrap | React Bootstrap | TailwindCss | Javascript | Jquery ",
+            ", a front end developer based in Lahore, Pakistan. Developer  with industry experience building Responsive websites and web applications. I specialize in Html5 | CSS3 | SCSS | BootStrap | React Bootstrap | TailwindCss | Javascript | Jquery | Wordpress",
     },
     technologies: {
         programming:  [
@@ -75,7 +75,7 @@ export default new Vuex.Store({
         developer: "Codility Solutions",
         tags: [
             { name: "#Haml" },
-            { name: "3Scss" },
+            { name: "#Scss" },
             { name: "#Javascript" },
             { name: "#Jquery" }
         ]
@@ -131,7 +131,7 @@ export default new Vuex.Store({
     ], socials: [
         {
             name: "LinkedIn",
-            link: "https://www.linkedin.com/in/naseer-dev/",
+            link: "https://pk.linkedin.com/in/naseer-dev?trk=public-profile-badge-profile-badge-view-profile-cta",
             icon: "linkedin" 
         }, {
             name: "Github",
@@ -143,7 +143,7 @@ export default new Vuex.Store({
             icon: "twitter" 
         }, {
             name: "instagram",
-            link: "https://www.instagram.com/naseer.world",
+            link: "https://instagram.com/naseer.world",
             icon: "instagram" 
         } 
     ]
