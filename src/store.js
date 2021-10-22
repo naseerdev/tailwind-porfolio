@@ -96,11 +96,11 @@ export default new Vuex.Store({
     }
     ], events: [
         { 
-            name: "Cinnova Technologies, LLC ",
-            description: "I work in this company as a frontend developer, I mostly use Html, Css3 , Javascript, TailwindCss & Wordpress",
-            role: "FrontEnd Developer ",
+            name: "Nextbridge Pvt Ltd",
+            description: "Working as Front End UI Engineer. Converting Xds to UI. ",
+            role: "Front End UI Engineer",
             type: "Work",
-            startDate: "May 2022",
+            startDate: "Sep 2022",
             endDate: "Present",
             roles:[
                 {description:" Design and develope Responsive Websites." }
