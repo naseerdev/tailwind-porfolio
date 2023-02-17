@@ -10,7 +10,7 @@
         <scene></scene>
         <div class="w-full my-2">
             <div class="text-label-info text-xl">
-                I&rsquo;m a {{age}} years old Front End Developer based in Lahore, Pakistan,<br> Having expertise in building and maintaining responsive websites in the software industry. <br> 
+                I&rsquo;m a {{age}} years old Frontend Developer based in Lahore, Pakistan.<br> Having expertise in building and maintaining responsive websites in the software industry. <br> 
             </div>
             <button class="text-primary-main rounded-sm text-lg p-4 border-2 hover:bg-transparent-primary my-4" 
                 onclick="location.href='mailto:thenaseer.dev@gmail.com'">
@@ -33,4 +33,3 @@ export default {
     computed: { ...mapGetters(["profile", "projects", "age"]) }  
 };
 </script>
-<style></style>
