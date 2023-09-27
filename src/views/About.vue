@@ -11,7 +11,7 @@
     </div>
 
     <div class="w-full my-4"> 
-        <h1 class="text-secondary-main font-bold text-lg my-2"> ➔ Skills </h1>
+        <h1 class="text-secondary-main font-bold text-lg my-2"> ➔ Skills</h1>
         <div class="skills">
             <div class="shadow-lg rounded-sm bg-background-light p-6 ">
                 <span class="text-label-subtitle font-bold text-lg my-2">Programming Languages</span>
