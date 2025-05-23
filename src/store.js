@@ -15,117 +15,161 @@ export default new Vuex.Store({
 		},
 		technologies: {
 			programming: [
-				{ name: "HTML5 & (S)CSS", level: 100 },
-				{ name: "Javascript (ES6)", level: 100 },
-				{ name: "TypeScript", level: 100 }
+				{ name: "HTML5", level: 100 },
+				{ name: "CSS3", level: 100 },
+				{ name: "JavaScript", level: 100 },
+				{ name: "TypeScript", level: 100 },
+				{ name: "React JS", level: 100 },
+				{ name: "GraphQL", level: 100 },
+				{ name: "REST API", level: 100 }
 			],
 			frameworks: [
-				{ name: "TailwindCss", level: 100 },
-				{ name: "Material UI", level: 100 },
+				{ name: "Material UI 5", level: 100 },
 				{ name: "Chakra UI", level: 100 },
+				{ name: "TailwindCSS", level: 100 },
 				{ name: "Bootstrap 5", level: 100 },
-				{ name: "React Js", level: 100 },
-				{ name: "Jquery", level: 100 }
+				{ name: "React Bootstrap", level: 100 },
+				{ name: "Styled Components", level: 100 }
 			],
 			tools: [
 				{ name: "Git" },
 				{ name: "Jira" },
-				{ name: 'Apollo GraphQL' },
-				{ name: 'Cypress' },
-				{ name: 'React Hook Form' },
+				{ name: "Apollo GraphQL" },
+				{ name: "Cypress" },
+				{ name: "React Hook Form" },
+				{ name: "React Hooks" },
+				{ name: "Context API" },
+				{ name: "React-Router" }
 			]
 		},
-		projects: [{
-			name: "Helmer",
-			description: "Helmer legal is a law firm to protect the legal rights of clients throughout the State of New Jersey.",
-			link: "https://helmer-portal-staging.herokuapp.com/",
-			icon: "leaf",
-			startDate: "2022",
-			endDate: "2023",
-			developer: "Kwanso",
-			tags: [
-				{ name: "#Material UI" },
-				{ name: "#React.tsx" },
-				{ name: "#Apollo GraphQL" },
-				{ name: "#Context Api" },
-				{ name: "#React Hook Form" }
-			]
-		}, {
-			name: "Imgry",
-			description: "Imgry is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos, and more. I am working on the implementation of the design to React Typescript Components. This app is developed using the Chakra UI Library.",
-			link: "https://app.imgry.com/",
-			icon: "leaf",
-			startDate: "2022",
-			endDate: "2023",
-			developer: "Kwanso",
-			tags: [
-				{ name: "#Chakra UI" },
-				{ name: "#Remix" },
-				{ name: "#Context Api" },
-				{ name: "#React Hook Form" }
-			]
-		}, {
-
-			name: "BoxCheck",
-			description: "BoxCheck manages the fastest, most accurate, and most cost-efficient delivery network in the US for wine, beer, and more. Worked on Tailwind CSS for UI Development with React Js.",
-			link: "https://dev.ship.boxcheck.com/",
-			icon: "leaf",
-			startDate: "2021",
-			endDate: "2022",
-			developer: "Nextbridge Ltd",
-			tags: [
-				{ name: "#Tailwind Css" },
-				{ name: "#React.js" },
-			]
-		},
-		{
-			name: "MD Ally",
-			description: "MD Ally was designed to enable an innovative EMS-provider collaboration that optimizes community-based medical services, establishes strong patient-provider relationships, and ensures great clinical and financial outcomes for the patient.",
-			link: "https://www.mdally.com/",
-			icon: "leaf",
-			startDate: "2019",
-			endDate: "2020",
-			developer: "Codility Solutions",
-			tags: [
-				{ name: "#Ruby" },
-				{ name: "#Bootstrap 5" },
-				{ name: "#Scss" },
-			]
-		}
-		], events: [
+		projects: [
 			{
-				name: "Kwanso",
-				description: "As a Frontend Engineer at Kwanso, I specialize in converting designs into high-quality code using Material UI and React.ts. My focus is on building responsive, user-friendly, and efficient web applications that meet business and user requirements.As the sole Frontend Developer on this project, I was responsible for converting the design to actual code using Material UI, and integrating the API using React.js. I worked closely with the design and back-end teams to ensure that the web application met all business and user requirements.",
-				role: "Frontend Engineer",
-				type: "Work",
-				startDate: "March 2022",
-				endDate: "Present",
-				roles: [
-					{ description: "Cypress · Chakra UI · Apollo GraphQL · Jira · Material-UI · HTML5 · Cascading Style Sheets (CSS) · JavaScript · React.js · TypeScript" }
+				name: "Happy Puppy Universe Dashboard",
+				description: "Built in React, TypeScript, MUI 5 with REST API. Used React Hook Form for scalable form handling and integrated a PDF report generator.",
+				link: null,
+				icon: "leaf",
+				startDate: "Sep 2023",
+				endDate: "Jul 2024",
+				developer: "Naseer Ahmed",
+				tags: [
+					{ name: "#React" },
+					{ name: "#TypeScript" },
+					{ name: "#MUI 5" },
+					{ name: "#REST API" },
+					{ name: "#React Hook Form" },
+					{ name: "#PDF Generation" }
 				]
 			},
 			{
-				name: "Nextbridge Pvt Ltd",
-				description: "I was working in Nextbridge as a UI Engineer. Converting designs to Actual code in React js projects. I am comfortable with developing components and making them reusable. And I am working on the latest version of TailwindCSS with PostCSS for optimizing the unused CSS for better performance of the application.",
-				role: "UI Engineer",
+				name: "Happy Puppy Universe Website",
+				description: "Built with Astro JS, Solid JS, TailwindCSS. Improved SEO, fixed CLS issues, and optimized DOM rendering for better performance.",
+				link: "https://happypuppyuniverse.com",
+				icon: "leaf",
+				startDate: "Jun 2023",
+				endDate: "Jul 2024",
+				developer: "Naseer Ahmed",
+				tags: [
+					{ name: "#Astro JS" },
+					{ name: "#Solid JS" },
+					{ name: "#TailwindCSS" },
+					{ name: "#SEO" },
+					{ name: "#Performance Optimization" }
+				]
+			},
+			{
+				name: "Imgry",
+				description: "Built Canva-style graphic design app using Chakra UI, React TypeScript. Enabled creation of posts, presentations, videos, logos, etc.",
+				link: null, // Assuming no specific live link for this version, or it's the same as the old one.
+				icon: "leaf",
+				startDate: "Apr 2022",
+				endDate: "Jun 2022",
+				developer: "Naseer Ahmed", // Updated from "Kwanso" as per instructions
+				tags: [
+					{ name: "#Chakra UI" },
+					{ name: "#React" },
+					{ name: "#TypeScript" },
+					{ name: "#Graphic Design" }
+				]
+			}
+		], events: [
+			{
+				name: "Happy Puppy Universe",
+				description: "Remote (USA)",
+				role: "Frontend Developer",
+				type: "Work",
+				startDate: "July 2023",
+				endDate: "Present",
+				roles: [
+					{ description: "Built scalable admin dashboard using React, TypeScript, MUI 5, Supabase" },
+					{ description: "Developed client website using Astro JS, Solid JS, TailwindCSS" },
+					{ description: "Ensured clean, valid HTML/CSS, browser/device/OS compatibility" }
+				]
+			},
+			{
+				name: "Kwanso",
+				description: "Lahore, Pakistan",
+				role: "Frontend Developer",
+				type: "Work",
+				startDate: "March 2022",
+				endDate: "Nov 2023",
+				roles: [
+					{ description: "Led frontend for Helmer, Uptok, Mindcette, and Imgry" },
+					{ description: "Used React, TypeScript, MUI 5, GraphQL" },
+					{ description: "Wrote 2000+ lines of code in a 10,000+ line codebase and refactored code" }
+				]
+			},
+			{
+				name: "Nextbridge Ltd",
+				description: "Lahore, Pakistan",
+				role: "Frontend UI Engineer",
 				type: "Work",
 				startDate: "Sep 2021",
-				endDate: "March 2022",
+				endDate: "Mar 2022",
 				roles: [
-					{ description: "HTML5 · Cascading Style Sheets (CSS) · JavaScript · React.js · Tailwind CSS" }
+					{ description: "Converted designs to reusable components in ReactJS" },
+					{ description: "Used TailwindCSS and PostCSS to optimize CSS and performance" }
 				]
 			},
 			{
 				name: "Codility Solutions",
-				description: "My role is to write and style the front-End that meet the requirements of our mocks and fulfill our user stories. I also monitor and process pull requests for production deployments.",
-				role: "Front End Developer",
+				description: "Lahore, Pakistan",
+				role: "Frontend UI Developer",
 				type: "Work",
-				startDate: "June 2019",
+				startDate: "Jun 2019",
 				endDate: "Sep 2021",
 				roles: [
-					{ description: "HTML5 · Cascading Style Sheets (CSS) · Bootstrap · React.js · Tailwind CSS" }
+					{ description: "Built ReactJS + Rails frontends from UI/UX designs" },
+					{ description: "Created reusable libraries (25% time reduction), scored 90%+ in reviews" },
+					{ description: "Delivered accessible, secure, cross-browser-compatible apps" }
 				]
 			},
+			{
+				name: "University of South Asia, Lahore",
+				description: "Bachelor’s in Computer Science", // Using description for degree name
+				role: "Student", // Role as Student
+				type: "Education", // New type
+				startDate: "Unknown",
+				endDate: "June 2020",
+				roles: [] // No specific roles/bullet points for education
+			},
+			{
+				name: "Nextbridge Institute",
+				description: "MERN Stack Development",
+				role: "Certified", // Role for certification
+				type: "Certification",
+				startDate: "",
+				endDate: "2022",
+				roles: []
+			},
+			{
+				name: "Udemy",
+				description: "The Complete JavaScript Course",
+				role: "Certified", // Role for certification
+				type: "Certification",
+				startDate: "",
+				endDate: "2021",
+				roles: []
+			}
 		], socials: [
 			{
 				name: "LinkedIn",

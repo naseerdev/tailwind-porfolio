@@ -6,7 +6,7 @@
         <img class="h-24 w-24 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 sm:my-4 md:my-0 md:mr-6" src="../assets/img/profile.jpeg">
         <div class="text-center md:text-left">
             <!-- <span class="text-label-subtitle font-bold text-xl "> ➔➔➔ an introduction </span><br/> -->
-            <p class="text-label-info  text-lg "><span class="uppercase text-sm font-bold text-label-subtitle">{{profile.startDescription}}</span>{{profile.description}}</p>
+            <p class="text-label-info  text-lg ">Innovative professional in web development, known for high productivity and efficiency in task completion. Specialized in JavaScript, responsive design, and user experience optimization. Strong in problem-solving, teamwork, and communication, ensuring projects meet both technical standards and client expectations.</p>
         </div>
     </div>
 
@@ -41,7 +41,17 @@
     
     <div class="w-full my-8">
         <span class="text-secondary-main font-bold text-lg my-2">➔ Experience </span>
-        <timeline></timeline>
+        <timeline eventType="Work"></timeline>
+    </div>
+
+    <div class="w-full my-8">
+        <span class="text-secondary-main font-bold text-lg my-2">➔ Education </span>
+        <timeline eventType="Education"></timeline>
+    </div>
+
+    <div class="w-full my-8">
+        <span class="text-secondary-main font-bold text-lg my-2">➔ Certifications </span>
+        <timeline eventType="Certification"></timeline>
     </div>
 </div>
 </template>

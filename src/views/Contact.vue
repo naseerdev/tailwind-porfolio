@@ -12,6 +12,15 @@
                 Say Hello
             </button>
         </div>
+        <div class="my-8 text-label-info text-xl">
+            <h2 class="text-secondary-main font-bold sm:text-4xl text-2xl mb-4">Personal Details</h2>
+            <p><strong>Name:</strong> Naseer Ahmed</p>
+            <p><strong>Location:</strong> Lahore, Pakistan</p>
+            <p><strong>Email:</strong> <a href="mailto:thenaseer.dev@gmail.com" class="text-primary-light hover:text-primary-main">thenaseer.dev@gmail.com</a></p>
+            <p><strong>Phone:</strong> 03245503557</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/naseer-dev" target="_blank" class="text-primary-light hover:text-primary-main">linkedin.com/in/naseer-dev</a></p>
+            <p><strong>Portfolio:</strong> <a href="https://happypuppyuniverse.com" target="_blank" class="text-primary-light hover:text-primary-main">happypuppyuniverse.com</a></p>
+        </div>
         <div class="my-8">
             <span class="text-label-info text-xl my-8">
                 where else you can find me

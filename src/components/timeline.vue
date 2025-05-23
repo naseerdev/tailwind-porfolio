@@ -1,7 +1,7 @@
 <template>
     <div > 
         <event
-            v-for="(item, index) in events"
+            v-for="(item, index) in filteredEvents"
 			:key="index"
 			:index="index"
 			:parentData="item"/>
@@ -14,7 +14,18 @@ import { mapGetters } from "vuex";
 export default {
     name: "timeline",
     components: { event },
-    computed: { ...mapGetters(["events"]) },
+    props: {
+        eventType: {
+            type: String,
+            default: "Work" // Default to "Work" if no type is provided
+        }
+    },
+    computed: { 
+        ...mapGetters(["events"]),
+        filteredEvents() {
+            return this.events.filter(event => event.type === this.eventType);
+        }
+    },
     created: function(){},
 	methods: {}
 };
