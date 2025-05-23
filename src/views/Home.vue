@@ -16,11 +16,6 @@
                 onclick="location.href='mailto:thenaseer.dev@gmail.com'">
                 Get In Touch
             </button>
-            <a href="resume.pdf" download>
-                <button class="ml-5 text-primary-main rounded-sm text-lg p-4 border-2 hover:bg-transparent-primary my-4" >
-                    Get Resume
-                </button>
-            </a>
         </div>
     </div>
 </template>
