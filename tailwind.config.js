@@ -407,4 +407,5 @@ module.exports = {
   },
   corePlugins: {},
   plugins: [],
-}
+};
+
