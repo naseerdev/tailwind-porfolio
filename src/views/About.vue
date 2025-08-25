@@ -6,12 +6,22 @@
         <img class="h-24 w-24 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 sm:my-4 md:my-0 md:mr-6" src="../assets/img/profile.jpeg">
         <div class="text-center md:text-left">
             <!-- <span class="text-label-subtitle font-bold text-xl "> ➔➔➔ an introduction </span><br/> -->
-            <p class="text-label-info  text-lg ">Innovative professional in web development, known for high productivity and efficiency in task completion. Specialized in JavaScript, responsive design, and user experience optimization. Strong in problem-solving, teamwork, and communication, ensuring projects meet both technical standards and client expectations.</p>
+            <p class="text-label-info  text-lg ">I'm a 28-year-old Senior Software Engineer based in Lahore, Pakistan, with 6+ years of expertise in building and maintaining scalable, responsive web applications in the software industry. Specialized in React, TypeScript, and modern frontend technologies, I excel at creating seamless user experiences and mentoring development teams. Passionate about clean code, performance optimization, and staying current with emerging technologies.</p>
         </div>
     </div>
 
     <div class="w-full my-4"> 
-        <h1 class="text-secondary-main font-bold text-lg my-2"> ➔ Skills</h1>
+        <h1 class="text-secondary-main font-bold text-lg my-2"> ➔ Top Skills</h1>
+        <div class="shadow-lg rounded-sm bg-background-light p-6 my-4">
+            <span class="text-label-subtitle font-bold text-lg my-2">Professional Skills</span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">W3C Accessibility</span></span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">Problem Solving</span></span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">Teamwork</span></span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">Leadership & Mentoring</span></span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">Code Review & Best Practices</span></span>
+        </div>
+
+        <h1 class="text-secondary-main font-bold text-lg my-2"> ➔ Technical Skills</h1>
         <div class="skills">
             <div class="shadow-lg rounded-sm bg-background-light p-6 ">
                 <span class="text-label-subtitle font-bold text-lg my-2">Programming Languages</span>
@@ -38,6 +48,8 @@
             <span v-for="item in technologies.tools" v-bind:key="item.name" class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">{{item.name}}</span></span>
         </div>
     </div>
+
+
     
     <div class="w-full my-8">
         <span class="text-secondary-main font-bold text-lg my-2">➔ Experience </span>
@@ -52,6 +64,14 @@
     <div class="w-full my-8">
         <span class="text-secondary-main font-bold text-lg my-2">➔ Certifications </span>
         <timeline eventType="Certification"></timeline>
+    </div>
+
+    <div class="w-full my-8">
+        <span class="text-secondary-main font-bold text-lg my-2">➔ Honors & Awards</span>
+        <div class="shadow-lg rounded-sm bg-background-light p-6">
+            <span class="text-label-subtitle font-bold text-lg my-2">Recognition</span><br>
+            <span class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">Emerging Talent Award</span></span>
+        </div>
     </div>
 </div>
 </template>

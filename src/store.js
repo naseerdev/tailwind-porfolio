@@ -11,7 +11,7 @@ export default new Vuex.Store({
 			birthDay: new Date(1997, 7, 25),
 			startDescription: "Hello I’m Naseer",
 			description:
-				", Armed with 3+ years of an awesome experience in Frontend Development, always hungry for learning new technologies & skills and to take on challenges. Proficient in HTML5, CSS3, JavaScript, React Js, TypeScript, GraphQL, Material UI 5, Chakra UI, TailwindCss, Bootstrap 5, React Bootstrap",
+				", Senior Software Engineer at Osol specializing in React and TypeScript, with 5+ years of experience in Frontend Development. Always hungry for learning new technologies & skills and to take on challenges. Proficient in HTML5, CSS3, JavaScript, React Js, TypeScript, GraphQL, Material UI 5, Chakra UI, TailwindCss, Bootstrap 5, React Bootstrap, and Next.js",
 		},
 		technologies: {
 			programming: [
@@ -20,6 +20,7 @@ export default new Vuex.Store({
 				{ name: "JavaScript", level: 100 },
 				{ name: "TypeScript", level: 100 },
 				{ name: "React JS", level: 100 },
+				{ name: "Next.js", level: 100 },
 				{ name: "GraphQL", level: 100 },
 				{ name: "REST API", level: 100 }
 			],
@@ -29,7 +30,9 @@ export default new Vuex.Store({
 				{ name: "TailwindCSS", level: 100 },
 				{ name: "Bootstrap 5", level: 100 },
 				{ name: "React Bootstrap", level: 100 },
-				{ name: "Styled Components", level: 100 }
+				{ name: "Styled Components", level: 100 },
+				{ name: "shadcn/ui", level: 100 },
+				{ name: "Radix UI", level: 100 }
 			],
 			tools: [
 				{ name: "Git" },
@@ -39,32 +42,47 @@ export default new Vuex.Store({
 				{ name: "React Hook Form" },
 				{ name: "React Hooks" },
 				{ name: "Context API" },
-				{ name: "React-Router" }
+				{ name: "React-Router" },
+				{ name: "Mapbox API" },
+				{ name: "PostCSS" },
+				{ name: "Zustand" },
+				{ name: "React Query" },
+				{ name: "Zod" },
+				{ name: "Vite" }
 			]
 		},
 		projects: [
 			{
-				name: "VendePro Portal",
-				description: "Engineered a full-stack Vendor Management System using TypeScript, React, and Node.js. Managed vendor onboarding, verification, and profile management. Implemented secure multi-user authentication and role-based access control. Delivered an enterprise-grade UI/UX with responsive design, lazy loading, code splitting, and animations using Framer Motion.",
-				link: null,
+				name: "VendrPro Portal - Vendor Management System",
+				description: "Engineered a full-stack Vendor Management System using React 18, TypeScript, Vite, Material UI, Zustand, and React Query, streamlining vendor onboarding, verification, and profile management. Implemented secure multi-user authentication and role-based access control, including JWT-based sessions, lock-screen idle detection, and robust password management workflows. Developed advanced onboarding workflows with multi-step wizards, dynamic validation (Zod + React Hook Form), file/document uploads, OCR integration, and broker portal collaboration features. Delivered enterprise-grade UI/UX with responsive Material UI design, reusable components, Framer Motion animations, and performance optimizations (lazy loading, code splitting, caching).",
+				link: "https://vendor.vendrpro.com/",
 				icon: "leaf",
 				developer: "Naseer Ahmed",
 				tags: [
+					{ name: "#React 18" },
 					{ name: "#TypeScript" },
-					{ name: "#React" },
-					{ name: "#Node.js" },
+					{ name: "#Vite" },
+					{ name: "#Material UI" },
+					{ name: "#Zustand" },
+					{ name: "#React Query" },
+					{ name: "#Zod" },
 					{ name: "#Framer Motion" }
 				]
 			},
 			{
 				name: "Filtermart",
-				description: "Developed a modern industrial e-commerce platform using TypeScript and React. Engineered a robust authentication system. Delivered a professional, responsive UI with a clean design.",
-				link: null,
+				description: "Developed a modern industrial e-commerce platform using Next.js 15, React 19, TypeScript, Tailwind CSS, and Zustand, enabling advanced product search across 1.1M+ filter references. Engineered a robust authentication system with secure login, registration, password reset, and email verification workflows, ensuring user data protection and access control. Delivered a professional, responsive UI/UX with reusable components (Radix UI), schema-based form validation (Zod), multi-language support, and optimized mobile-first design.",
+				link: "https://app.qa.filtermart.com/",
 				icon: "leaf",
 				developer: "Naseer Ahmed",
 				tags: [
+					{ name: "#Next.js 15" },
+					{ name: "#React 19" },
 					{ name: "#TypeScript" },
-					{ name: "#React" },
+					{ name: "#Tailwind CSS" },
+					{ name: "#Zustand" },
+					{ name: "#Radix UI" },
+					{ name: "#Zod" },
 					{ name: "#E-commerce" }
 				]
 			},
@@ -83,94 +101,109 @@ export default new Vuex.Store({
 				]
 			},
 			{
-				name: "Irsai",
-				description: "Developed a comprehensive shippers/movers dashboard using TypeScript and Material UI, integrating with Shopify. Presented key modules including order and product management, POS integration, and real-time shipment tracking. Delivered a unified, intuitive interface with a modern design.",
-				link: null,
+				name: "Irsal Dashboard",
+				description: "The Shipment Management Dashboard built with React, TypeScript, and Material UI 5, is a frontend-focused platform for managing shipments, orders, products, and payments. It includes Shopify integration and supports carriers like TCS, SpeedEx, and FedEx. The dashboard offers modules for order and product management, POS for in-store sales, and real-time shipment tracking. It provides a unified, intuitive interface with a modern design, ensuring efficient business operations and a seamless user experience.",
+				link: "https://irsal.pk/",
 				icon: "leaf",
 				developer: "Naseer Ahmed",
 				tags: [
+					{ name: "#React.js" },
 					{ name: "#TypeScript" },
-					{ name: "#Material UI" },
-					{ name: "#Shopify" }
+					{ name: "#REST APIs" },
+					{ name: "#Front-end Development" },
+					{ name: "#Material-UI" },
+					{ name: "#Shopify" },
+					{ name: "#Shipment Tracking" }
 				]
 			}
-		], events: [
+		], 		events: [
 			{
-				name: "VendePro",
-				description: "Lahore, Pakistan",
+				name: "Osol",
+				description: "Lahore, Punjab, Pakistan",
 				role: "Senior Software Engineer",
 				type: "Work",
-				startDate: "November 2023",
+				startDate: "September 2024",
 				endDate: "Present",
 				roles: [
-					{ description: "Led the architecture and development of stable React applications for a vendor management platform." },
-					{ description: "Integrated Mapbox API for geolocation mapping, enhancing vendor search capabilities." },
-					{ description: "Engineered and deployed authentication using Auth0 and JWT, ensuring data security and compliance." }
+					{ description: "Led the architecture and development of scalable React applications for a B2B vendor management platform, VendrPro." },
+					{ description: "Mentored a team of frontend developers, conducting code reviews and providing technical guidance on best practices." },
+					{ description: "Integrated Mapbox API for dynamic geo-location mapping, enhancing vendor service management capabilities." }
 				]
 			},
 			{
-				name: "A Tech Company",
-				description: "Lahore, Pakistan (Hybrid)",
+				name: "Kwanso",
+				description: "Lahore, Punjab, Pakistan",
 				role: "Frontend Developer",
 				type: "Work",
-				startDate: "March 2023",
-				endDate: "September 2023",
+				startDate: "March 2022",
+				endDate: "September 2024",
 				roles: [
-					{ description: "Collaborated on delivering projects that enhanced user experience and met stakeholder needs." },
-					{ description: "Improved code quality and maintainability through best practices." }
+					{ description: "Developed and integrated user-friendly web applications using ReactJs, TypeScript, and Material UI 5." },
+					{ description: "Ensured high code quality and maintainability through best practices and robust testing." },
+					{ description: "Collaborated with cross-functional teams to deliver projects that enhance user experience and meet stakeholder needs." }
 				]
 			},
 			{
-				name: "Nextbridge Ltd",
+				name: "Nextbridge Ltd.",
 				description: "Lahore, Punjab, Pakistan",
-				role: "Frontend Engineer",
+				role: "Frontend Developer",
 				type: "Work",
 				startDate: "September 2021",
 				endDate: "March 2022",
 				roles: [
-					{ description: "Experienced in using Tailwind CSS to improve application performance." },
-					{ description: "Delivered high-quality products using modern tech stacks." }
+					{ description: "Developed reusable components for ReactJS projects, enhancing code efficiency and maintainability." },
+					{ description: "Utilized TailwindCSS and PostCSS to optimize CSS, significantly improving application performance." },
+					{ description: "Delivered high-quality web applications, contributing to a seamless user experience and increased client satisfaction." }
 				]
 			},
 			{
-				name: "Candility Solutions",
+				name: "Codility Solutions",
 				description: "Lahore, Punjab, Pakistan",
-				role: "Frontend UI Developer",
+				role: "Frontend Developer",
 				type: "Work",
 				startDate: "June 2019",
 				endDate: "September 2021",
 				roles: [
-					{ description: "Developed high-quality code for React, HTML, and CSS." },
-					{ description: "Developed components that resulted in a 25% reduction in project timelines." },
-					{ description: "Collaborated with cross-functional teams for the delivery of high-quality applications." },
-					{ description: "Ensured accessibility and security standards were met." }
+					{ description: "Translated UI/UX designs into high-quality code for ReactJS and Rails projects using HTML and CSS." },
+					{ description: "Developed reusable components and libraries, reducing development time by 25% for future projects." },
+					{ description: "Maintained exceptional code quality with a review score of 90% or higher." },
+					{ description: "Collaborated with cross-functional teams to deliver high-quality web applications on time." }
 				]
 			},
 			{
-				name: "University of South Asia, Lahore",
-				description: "Bachelor’s in Computer Science", // Using description for degree name
-				role: "Student", // Role as Student
-				type: "Education", // New type
-				startDate: "Unknown",
+				name: "University of South Asia",
+				description: "Bachelor's degree, Computer Science",
+				role: "Student",
+				type: "Education",
+				startDate: "June 2016",
 				endDate: "June 2020",
-				roles: [] // No specific roles/bullet points for education
-			},
-			{
-				name: "Nextbridge Institute",
-				description: "MERN Stack Development",
-				role: "Certified", // Role for certification
-				type: "Certification",
-				startDate: "",
-				endDate: "2022",
 				roles: []
 			},
 			{
-				name: "Udemy",
-				description: "The Complete JavaScript Course",
-				role: "Certified", // Role for certification
+				name: "MERN Stack Development",
+				description: "Nextbridge Institute - Full Stack Development Certification",
+				role: "Certified",
 				type: "Certification",
 				startDate: "",
-				endDate: "2021",
+				endDate: "December 2021",
+				roles: []
+			},
+			{
+				name: "Bootstrap From Scratch - Fast and Responsive Web Development",
+				description: "HTML and CSS for Beginners - Build a Website & Launch ONLINE",
+				role: "Certified",
+				type: "Certification",
+				startDate: "",
+				endDate: "",
+				roles: []
+			},
+			{
+				name: "The Complete JavaScript Course 2022: From Zero to Expert!",
+				description: "Udemy - JavaScript Mastery Course",
+				role: "Certified",
+				type: "Certification",
+				startDate: "",
+				endDate: "2022",
 				roles: []
 			}
 		], socials: [

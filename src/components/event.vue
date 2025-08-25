@@ -1,13 +1,20 @@
 <template>
     <div class="bg-background-light py-6 px-8 my-4 text-label-info rounded-sm shadow-lg event">
-        <span class="text-label-info text-sm ">
+        <span class="text-label-info text-sm " v-if="parentData.startDate || parentData.endDate">
             <template v-if="parentData.startDate === 'Unknown'">
                 {{parentData.endDate}}
             </template>
-            <template v-else>
+            <template v-else-if="parentData.startDate && parentData.endDate">
                 {{parentData.startDate}} - {{parentData.endDate}}
             </template>
-        </span><br>
+            <template v-else-if="parentData.startDate">
+                {{parentData.startDate}}
+            </template>
+            <template v-else-if="parentData.endDate">
+                {{parentData.endDate}}
+            </template>
+        </span>
+        <br v-if="parentData.startDate || parentData.endDate">
         <span class="text-primary-light text-xl "><b>{{parentData.name}}</b></span><br>
         <span class="text-label-subtitle text-base "><b>{{parentData.role}}</b></span>
         <p class="text-label-info text-lg ">{{parentData.description}}</p>
