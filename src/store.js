@@ -44,103 +44,106 @@ export default new Vuex.Store({
 		},
 		projects: [
 			{
-				name: "Happy Puppy Universe Dashboard",
-				description: "Built in React, TypeScript, MUI 5 with REST API. Used React Hook Form for scalable form handling and integrated a PDF report generator.",
+				name: "VendePro Portal",
+				description: "Engineered a full-stack Vendor Management System using TypeScript, React, and Node.js. Managed vendor onboarding, verification, and profile management. Implemented secure multi-user authentication and role-based access control. Delivered an enterprise-grade UI/UX with responsive design, lazy loading, code splitting, and animations using Framer Motion.",
 				link: null,
 				icon: "leaf",
-				startDate: "Sep 2023",
-				endDate: "Jul 2024",
+				developer: "Naseer Ahmed",
+				tags: [
+					{ name: "#TypeScript" },
+					{ name: "#React" },
+					{ name: "#Node.js" },
+					{ name: "#Framer Motion" }
+				]
+			},
+			{
+				name: "Filtermart",
+				description: "Developed a modern industrial e-commerce platform using TypeScript and React. Engineered a robust authentication system. Delivered a professional, responsive UI with a clean design.",
+				link: null,
+				icon: "leaf",
+				developer: "Naseer Ahmed",
+				tags: [
+					{ name: "#TypeScript" },
+					{ name: "#React" },
+					{ name: "#E-commerce" }
+				]
+			},
+			{
+				name: "Puppy Inventory",
+				description: "Built an admin dashboard using React, TypeScript, and Material UI for managing pet data. Utilized React Query for data fetching. Used React Hook Form for efficient and scalable form handling. Enabled dynamic report generation and export.",
+				link: null,
+				icon: "leaf",
 				developer: "Naseer Ahmed",
 				tags: [
 					{ name: "#React" },
 					{ name: "#TypeScript" },
-					{ name: "#MUI 5" },
-					{ name: "#REST API" },
-					{ name: "#React Hook Form" },
-					{ name: "#PDF Generation" }
+					{ name: "#Material UI" },
+					{ name: "#React Query" },
+					{ name: "#React Hook Form" }
 				]
 			},
 			{
-				name: "Happy Puppy Universe Website",
-				description: "Built with Astro JS, Solid JS, TailwindCSS. Improved SEO, fixed CLS issues, and optimized DOM rendering for better performance.",
-				link: "https://happypuppyuniverse.com",
+				name: "Irsai",
+				description: "Developed a comprehensive shippers/movers dashboard using TypeScript and Material UI, integrating with Shopify. Presented key modules including order and product management, POS integration, and real-time shipment tracking. Delivered a unified, intuitive interface with a modern design.",
+				link: null,
 				icon: "leaf",
-				startDate: "Jun 2023",
-				endDate: "Jul 2024",
 				developer: "Naseer Ahmed",
 				tags: [
-					{ name: "#Astro JS" },
-					{ name: "#Solid JS" },
-					{ name: "#TailwindCSS" },
-					{ name: "#SEO" },
-					{ name: "#Performance Optimization" }
-				]
-			},
-			{
-				name: "Imgry",
-				description: "Built Canva-style graphic design app using Chakra UI, React TypeScript. Enabled creation of posts, presentations, videos, logos, etc.",
-				link: null, // Assuming no specific live link for this version, or it's the same as the old one.
-				icon: "leaf",
-				startDate: "Apr 2022",
-				endDate: "Jun 2022",
-				developer: "Naseer Ahmed", // Updated from "Kwanso" as per instructions
-				tags: [
-					{ name: "#Chakra UI" },
-					{ name: "#React" },
 					{ name: "#TypeScript" },
-					{ name: "#Graphic Design" }
+					{ name: "#Material UI" },
+					{ name: "#Shopify" }
 				]
 			}
 		], events: [
 			{
-				name: "Happy Puppy Universe",
-				description: "Remote (USA)",
-				role: "Frontend Developer",
+				name: "VendePro",
+				description: "Lahore, Pakistan",
+				role: "Senior Software Engineer",
 				type: "Work",
-				startDate: "July 2023",
+				startDate: "November 2023",
 				endDate: "Present",
 				roles: [
-					{ description: "Built scalable admin dashboard using React, TypeScript, MUI 5, Supabase" },
-					{ description: "Developed client website using Astro JS, Solid JS, TailwindCSS" },
-					{ description: "Ensured clean, valid HTML/CSS, browser/device/OS compatibility" }
+					{ description: "Led the architecture and development of stable React applications for a vendor management platform." },
+					{ description: "Integrated Mapbox API for geolocation mapping, enhancing vendor search capabilities." },
+					{ description: "Engineered and deployed authentication using Auth0 and JWT, ensuring data security and compliance." }
 				]
 			},
 			{
-				name: "Kwanso",
-				description: "Lahore, Pakistan",
+				name: "A Tech Company",
+				description: "Lahore, Pakistan (Hybrid)",
 				role: "Frontend Developer",
 				type: "Work",
-				startDate: "March 2022",
-				endDate: "Nov 2023",
+				startDate: "March 2023",
+				endDate: "September 2023",
 				roles: [
-					{ description: "Led frontend for Helmer, Uptok, Mindcette, and Imgry" },
-					{ description: "Used React, TypeScript, MUI 5, GraphQL" },
-					{ description: "Wrote 2000+ lines of code in a 10,000+ line codebase and refactored code" }
+					{ description: "Collaborated on delivering projects that enhanced user experience and met stakeholder needs." },
+					{ description: "Improved code quality and maintainability through best practices." }
 				]
 			},
 			{
 				name: "Nextbridge Ltd",
-				description: "Lahore, Pakistan",
-				role: "Frontend UI Engineer",
+				description: "Lahore, Punjab, Pakistan",
+				role: "Frontend Engineer",
 				type: "Work",
-				startDate: "Sep 2021",
-				endDate: "Mar 2022",
+				startDate: "September 2021",
+				endDate: "March 2022",
 				roles: [
-					{ description: "Converted designs to reusable components in ReactJS" },
-					{ description: "Used TailwindCSS and PostCSS to optimize CSS and performance" }
+					{ description: "Experienced in using Tailwind CSS to improve application performance." },
+					{ description: "Delivered high-quality products using modern tech stacks." }
 				]
 			},
 			{
-				name: "Codility Solutions",
-				description: "Lahore, Pakistan",
+				name: "Candility Solutions",
+				description: "Lahore, Punjab, Pakistan",
 				role: "Frontend UI Developer",
 				type: "Work",
-				startDate: "Jun 2019",
-				endDate: "Sep 2021",
+				startDate: "June 2019",
+				endDate: "September 2021",
 				roles: [
-					{ description: "Built ReactJS + Rails frontends from UI/UX designs" },
-					{ description: "Created reusable libraries (25% time reduction), scored 90%+ in reviews" },
-					{ description: "Delivered accessible, secure, cross-browser-compatible apps" }
+					{ description: "Developed high-quality code for React, HTML, and CSS." },
+					{ description: "Developed components that resulted in a 25% reduction in project timelines." },
+					{ description: "Collaborated with cross-functional teams for the delivery of high-quality applications." },
+					{ description: "Ensured accessibility and security standards were met." }
 				]
 			},
 			{
